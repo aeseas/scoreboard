@@ -8,7 +8,12 @@ class Player extends PureComponent {
 /*  PROPTYPES IN CLASS COMPONENTS
 with static you don't need to instantiate the class to acces PropTypes
 static.propTypes = {
-
+  changeScore: PropTypes.func,
+  removePlayer: PropTypes.func,
+  name: PropTypes.string.isRequired,
+  score: PropTypes.number.isRequired,
+  id: PropTypes.number,
+  index: PropTypes.number
 }
 */
 
