@@ -68,10 +68,12 @@ handleAddPlayer = (name) => {
     });
   }
 
+
   render() {
     return (
       <div className="scoreboard">
         <Header 
+          // can delete title because defaultProps in Header.
           title="Scoreboard" 
           players={this.state.players}           
         />
@@ -85,7 +87,7 @@ handleAddPlayer = (name) => {
             key={player.id.toString()} 
             index={index}
             changeScore={this.handleScoreChange}
-            removePlayer={this.handleRemovePlayer}           
+            removePlayer={this.handleRemovePlayer} 
           />
         )}
 
@@ -116,7 +118,7 @@ Counter.propTypes = {
 https://reactjs.org/docs/typechecking-with-proptypes.html
 
 PropTypes provide helpful warnings at runtime if the type of a prop is diffrent from the one defined in the PropTypes object
-
+Not only help to catch and avoid bugs, also serve as a documentation for components
 CHECK IN CONSOLE!
 
 */

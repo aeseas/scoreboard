@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
+// import PropTypes from "prop-types"
+
 //COMPONTENTS
 import Counter from './Counter';
 
@@ -7,7 +8,8 @@ class Player extends PureComponent {
 
 /*  PROPTYPES IN CLASS COMPONENTS
 with static you don't need to instantiate the class to acces PropTypes
-static.propTypes = {
+
+static propTypes = {
   changeScore: PropTypes.func,
   removePlayer: PropTypes.func,
   name: PropTypes.string.isRequired,
@@ -16,6 +18,7 @@ static.propTypes = {
   index: PropTypes.number
 }
 */
+
 
 
   render() {
@@ -34,6 +37,7 @@ static.propTypes = {
       <div className="player">
         <span className="player-name">
           <button className="remove-player" onClick={() => removePlayer(id)}>✖</button>
+
           { name }
         </span>
   

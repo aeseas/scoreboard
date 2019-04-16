@@ -20,6 +20,8 @@ const Header = ({players, title}) => {
 }
 
 
+
+
 /* 
 import PropTypes form 'prop-types';
 
@@ -28,6 +30,14 @@ Counter.propTypes = {
   score: propTypes.number,
   changeScore: propTypes.func
 };
+
+
+//defaultprops will make sure that props.title will have the value Scoreboard, if it's not specified by the parent app component
+Header.defaultProps = {
+  title: "Scoreboard"
+}
+
+
 */
 
 export default Header;
