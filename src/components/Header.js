@@ -8,7 +8,7 @@ import Stopwatch from './Stopwatch';
 const Header = ({players, title}) => {
   // OF
   // const { players, title } = props;
-  // ipv props.players, props.title
+  // iso props.players, props.title
   return (
     <header>
       <Stats players={players}/>
