@@ -1,7 +1,18 @@
 import React, { PureComponent } from 'react';
+// import PropTypes from 'prop-types';
+//COMPONTENTS
 import Counter from './Counter';
 
 class Player extends PureComponent {
+
+/*  PROPTYPES IN CLASS COMPONENTS
+with static you don't need to instantiate the class to acces PropTypes
+static.propTypes = {
+
+}
+*/
+
+
   render() {
     const { 
       name,
@@ -30,5 +41,8 @@ class Player extends PureComponent {
     );
   }
 }
+
+
+
 
 export default Player;

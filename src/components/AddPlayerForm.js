@@ -8,11 +8,12 @@ class AddPlayerForm extends Component {
 
   // !!
   // controled components have internal state and require fucntions to update state. Easier to modify or validate user input or filter results based on user input in real time.
+  // controled components with state call render on every keystroke
+  // refs render only called once
 
   // state = {
   //   value: ''
   // };
-
 
   // REF ATTRIBUTE, attach it to text input (in render method, by given ref attribute)
   playerInput = React.createRef();

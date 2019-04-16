@@ -12,5 +12,17 @@ const Counter = ({ index, score, changeScore }) => {
     </div>
   );
 }
+ 
+
+/* 
+import PropTypes form 'prop-types';
+
+Header.propType = {
+  title: PropTypes.string,
+  players: PropTypes.arrayOf(propTypes.object)
+
+};
+*/
+
 
 export default Counter;

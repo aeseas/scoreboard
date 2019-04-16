@@ -19,4 +19,15 @@ const Header = ({players, title}) => {
   );
 }
 
+
+/* 
+import PropTypes form 'prop-types';
+
+Counter.propTypes = {
+  index: propTypes.number,
+  score: propTypes.number,
+  changeScore: propTypes.func
+};
+*/
+
 export default Header;

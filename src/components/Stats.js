@@ -23,4 +23,14 @@ const Stats = (props) => {
   );
 }
 
+/* 
+import PropTypes form 'prop-types';
+
+Stats.propTypes = {
+  totalPlayer: propTypes.arrayOf(PropTypes.shape({
+    score: PropTypes.number
+  }))
+};
+*/
+
 export default Stats;

@@ -97,4 +97,28 @@ handleAddPlayer = (name) => {
   }
 }
 
+/* 
+//PROPTYPES
+
+
+npm install --save prop-types
+npm start 
+
+import PropTypes from 'props-types';
+
+FOR EXAMPLE COUNTER
+Counter.propTypes = {
+  index: propTypes.number,
+  score: propTypes.number,
+  changeScore: propTypes.func
+};
+
+https://reactjs.org/docs/typechecking-with-proptypes.html
+
+PropTypes provide helpful warnings at runtime if the type of a prop is diffrent from the one defined in the PropTypes object
+
+CHECK IN CONSOLE!
+
+*/
+
 export default App;
