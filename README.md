@@ -2,8 +2,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About This App
-This app is created with React, made after a tutorial from Treehouse. 
-Scoreboard where you can add and remove players. 
+This app is created with React, made after a tutorial from Treehouse. <br>
+Scoreboard where you can add and remove players with total players counter and a total score counter.<br>
 Stopwatch with reset button.
 
 ## Install 
