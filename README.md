@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About This App
 This app is created with React, made after a tutorial from Treehouse. 
+Scoreboard where you can add and remove players. 
+Stopwatch with reset button.
 
 ## Install 
     $ git clone https://github.com/aeseas/scoreboard.git
