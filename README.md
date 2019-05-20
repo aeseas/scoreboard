@@ -2,7 +2,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About This App
-This app is created with React 
+This app is created with React
+
+## Install 
+    $ git clone https://github.com/aeseas/scoreboard.git
+    $ cd scoreboard
+    $ npm install
 
 ## Prerequisites
 
@@ -33,7 +38,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ---
 
-## Install 
-    $ git clone https://github.com/aeseas/scoreboard.git
-    $ cd scoreboard
-    $ npm install
+
