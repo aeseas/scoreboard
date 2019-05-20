@@ -34,6 +34,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ---
 
 ## Install 
-$ git clone https://github.com/aeseas/scoreboard.git
-$ cd scoreboard
-$ npm install
+    $ git clone https://github.com/aeseas/scoreboard.git
+    $ cd scoreboard
+    $ npm install
