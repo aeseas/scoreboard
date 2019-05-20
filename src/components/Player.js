@@ -19,8 +19,6 @@ static propTypes = {
 }
 */
 
-
-
   render() {
     const { 
       name,
