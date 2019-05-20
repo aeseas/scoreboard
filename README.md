@@ -9,7 +9,7 @@ This app is created with React
     $ cd scoreboard
     $ npm install
 
-## Prerequisites
+---
 
 In the project directory, you can run:
 
