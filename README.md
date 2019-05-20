@@ -10,6 +10,7 @@ Stopwatch with reset button.
     $ git clone https://github.com/aeseas/scoreboard.git
     $ cd scoreboard
     $ npm install
+    $ npm start
 
 ---
 
